@@ -376,7 +376,7 @@ color:#fff;
 .nim-menu.navbar-default .navbar-nav > li > a {
 	
 	color: #fafafa;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
         font-size:.73em;
        //text-shadow:1px 0px rgba(0,0,0,0.5);
 }
@@ -877,7 +877,7 @@ font-family: 'Roboto Slab', serif;
 
 .footer-links a:hover
 { 
-    color: #fa5454;
+    color: #c41b33;
 }
 
 .footer-links a:first-child 
@@ -907,7 +907,7 @@ font-family: 'Roboto Slab', serif;
   position: relative;
   transition: all .8s ease;
   font-size: 1.3em;
-  background: #D6D6D6;
+  background: #b2abab;
 }
 
 .social li a:hover {
@@ -956,4 +956,17 @@ font-family: 'Roboto Slab', serif;
     width: auto;
     max-width: 150px;
 
+}
+.botao a{
+       background:#000;
+       -webkit-transition:background 0.5s ease-out;
+       -moz-transition:background 0.5s ease-out;
+       -o-transition:background 0.5s ease-out;
+       -ms-transition:background 0.5s ease-out;
+}
+.botao a:hover{
+       background:#ccc;
+       filter:alpha(opacity=100);
+      -moz-opacity:1;
+       opacity:1;
 }
