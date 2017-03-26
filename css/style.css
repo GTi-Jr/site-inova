@@ -239,7 +239,7 @@ h1, h2, h3, h4, h5, h6,
     color: #fff;
 }
 .btn-custom-outline {
-	border-radius: 3px;
+	border-radius: 23px;
 	padding: 0.8em 1.8em;
 	color: #fff;
 	font-weight: 700;
@@ -247,7 +247,7 @@ h1, h2, h3, h4, h5, h6,
 	transition: all .5s ease-out;
 	text-transform: uppercase;
 	background-color: transparent;
-	border-color: #ffffff;
+	border-color: red
 }
 .btn-custom-outline:hover,.btn-custom-outline:focus{
 	color: #ffffff;
@@ -634,7 +634,7 @@ p.lead
 -------------------------------------------------------*/
 .inspiration
 {
- background:url("../images/img-1.jpg");
+ background:url("../images/Diagnóstico Online.jpg");
  background-position: center center;
  background-attachment: fixed;
  background-size:cover;

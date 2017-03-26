@@ -2207,8 +2207,8 @@ textarea.input-lg {
   vertical-align: middle;
   cursor: pointer;
   background-image: none;
-  border: 1px solid transparent;
-  border-radius: 4px;
+  border: 1px solid;
+  border-radius: 14px;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
