@@ -36,7 +36,7 @@ VERSION : 1.1
         <link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<link rel="stylesheet" type="text/css" href="css/color/brown.css">
   <link rel="stylesheet" type="text/css" href="css/backgroundvideo.css">
-  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  
   <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 
     
@@ -69,18 +69,20 @@ VERSION : 1.1
 <!-- [ LOADERs ]
 ================================================================================================================================-->	
     
+    <section class="main-heading" id="home">
     <section id="home-sec"  class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=QRsVn_6zaxI',containment:'self',autoPlay:true, mute:true, startAt:0,mute: true,showControls:false}" >
              <!-- change https://www.youtube.com/watch?v=Ycv5fNd4AeM to your youtube url-->
                <div class="overlay"  >
                    <div class="container" >
                     <div class="row text-center">
                         <div class="col-md-12">
-                          <h1>INTELGÊNCIA EM NEGÓCIOS</h1> 
+                          <!--<h1 style="font-size:35px; text-align:left;">SOLUCIONANDO <strong>DESAFIOS</strong>, GARANTINDO INTELIGÊNCIA EM <strong>NEGÓCIOS</strong></h1>--> 
                         </div>
                     </div>
                     </div>
                </div>
                 
+             </section>
              </section>
         <!-- HOME/VEDIO SECTION END-->
 
@@ -118,86 +120,36 @@ VERSION : 1.1
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#home" class="page-scroll">Início</a></li>
+            <li><a href="#home" class="page-scroll ">Início</a></li>
             <li><a href="#one" class="page-scroll">Institucional</a></li>
             <li><a href="#two" class="page-scroll">Soluções</a></li>
-            <li><a href="#three" class="page-scroll">Clientes e Parceiros</a></li>
-            <li><a href="#four" class="page-scroll">Contato</a></li
+            <li><a href="#three" class="page-scroll ">Clientes e Parceiros</a></li>
+            <li><a href="#four" class="page-scroll" id="contato">Contato</a>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="">
+                Fale conosco
+              </a></li><li><a href="">
+                Diagnótico Online
+              </a></li>
+            </ul>
+            </li>
+            <li><i class="fa fa-caret-down" style="padding-top: 15px;"></i></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
-
-
-   <!-- [/NAV]
- ============================================================================================================================--> 
-    
-   <!-- [/MAIN-HEADING]
- ============================================================================================================================--> 
-   <section class="main-heading" id="home">
-       <div class="overlay">
-           <div class="container">
-               <div class="row">
-                   <div class="main-heading-content col-md-12 col-sm-12 text-center">
-        <h1 class="main-heading-title"><span class="main-element themecolor" data-elements="Inova Empresa Júnior"></span></h1>
-        <!--<p class="main-heading-text">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore,<br/>cum soluta nobis est eligendi optio cumque nihil impedit quo facilis</p>
-        <div class="btn-bar">
-          <a href="#" class="btn btn-custom theme_background_color">Ge Started</a>
-          <a href="#" class="btn btn-custom-outline">Contact Us</a>
-        </div>-->
-      </div>
-               </div>
-           </div>
-       </div>  
-      
-   </section>
-    
- <!-- [/MAIN-HEADING]
- ============================================================================================================================-->
  
  
  <!-- [ABOUT US]
  ============================================================================================================================-->
  <section class="aboutus white-background black" id="one">
-     <div class="container">
+    
          <div class="row">
              <div class="col-md-12 text-center black">
-                 <h3 class="title">ABOUT <span class="themecolor">US</span></h3>
-            <p class="a-slog">Lorem ipsum dolor sit amet ne onsectetuer adipiscing elit. Aenean commodo ligula eget dolor in tashin ty</p> 
-             </div>
-         </div>
-         <div class="gap">
-             
-         </div>
-         
-         <div class="row about-box">
-          <div class="col-sm-4 text-center">
-            <div class="margin-bottom">
-              <i class="fa fa-newspaper-o"></i>
-              <h4>POWER OF FLEXIBILITY</h4>
-              <p class="black">Nulla vitae libero pharetra augue. Etiam porta malesuada magna mollis euismod consectetur sem urdom tempus porttitor.</p>
-            </div> <!-- / margin -->
-          </div> <!-- /col -->
-          <div class="col-sm-4 about-line text-center">
-            <div class="margin-bottom">
-              <i class="fa fa-diamond"></i>
-              <h4>FULLY RESPONSIVE</h4>
-              <p class="black">Nulla vitae libero pharetra augue. Etiam porta malesuada magna mollis euismod consectetur sem urdom tempus porttitor.</p>
-            </div> <!-- / margin -->
-          </div><!-- /col -->
-          <div class="col-sm-4 text-center">
-            <div class="margin-bottom">
-              <i class="fa fa-area-chart"></i>
-              <h4>GREAT WEB IDEAS</h4>
-              <p class="black">Nulla vitae libero pharetra augue. Etiam porta malesuada magna mollis euismod consectetur sem urdom tempus porttitor.</p>
-            </div> <!-- / margin -->
-          </div><!-- /col -->
-        </div> <!-- /row -->
-         
-         
-         
-         
-     </div>
+                 <h3 class="title" style="color:#000;">QUEM<span class="themecolor">SOMOS?</span></h3>
+                 </div>
+                  
+
  </section>
  
  
@@ -206,157 +158,8 @@ VERSION : 1.1
  
  
  
- <!-- [RECENT-WORKS]
- ============================================================================================================================-->
-     <section class="recent-works text-center" id="two">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-              <h3 class="title">Recent <span class="themecolor">Works</span></h3>
-            <p class="a-slog">Lorem ipsum dolor sit amet ne onsectetuer adipiscing elit. Aenean commodo ligula eget dolor in tashin ty</p>
-          </div> 
-        </div>
-          
-          <div class="gap"></div>
-
-        <div class="row">
-          <div class="col-sm-4 port-item margin-bottom">
-            <div class="item-img-wrap">
-              <img src="images/work-1.jpg" class="img-responsive" alt="workimg">
-              <div class="item-img-overlay">
-                <a href="images/work-1.jpg" class="show-image">
-                  <span></span>
-                </a>
-              </div>
-            </div>
-            <div class="work-desc">
-              <h3><a href="#">Mockup Design</a></h3>
-              <span>Photoshop</span>
-            </div>
-          </div> <!-- /portfolio-item -->
-
-          <div class="col-sm-4 port-item margin-bottom">
-            <div class="item-img-wrap">
-              <img src="images/work-2.jpg" class="img-responsive" alt="workimg">
-              <div class="item-img-overlay">
-                <a href="images/work-2.jpg" class="show-image">
-                  <span></span>
-                </a>
-              </div>
-            </div>
-            <div class="work-desc">
-              <h3><a href="#">Graphic Design</a></h3>
-              <span>Illustrator</span>
-            </div>
-          </div> <!-- /portfolio-item -->
-
-          <div class="col-sm-4 port-item margin-bottom">
-            <div class="item-img-wrap">
-              <img src="images/work-3.jpg" class="img-responsive" alt="workimg">
-              <div class="item-img-overlay">
-                <a href="images/work-3.jpg" class="show-image">
-                  <span></span>
-                </a>
-              </div>
-            </div>
-            <div class="work-desc">
-              <h3><a href="#">Web Design</a></h3>
-              <span>Html / Css</span>
-            </div>
-          </div> <!-- /portfolio-item -->
-        </div> <!-- /row -->
-
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <a href="#" class="btn btn-custom theme_background_color">Load More</a>
-          </div>
-        </div> <!-- /row -->
-
-      </div> <!-- /container -->
-    </section>
-    <!-- / Portfolio -->
  
  
- <!-- [/OUR-RECENT WORKS]
- ============================================================================================================================-->
- 
-  <!-- [OUR TEAM]
- ============================================================================================================================-->
-  <section class="our-team white-background black" id="three">
-      <div class="container">
-       <div class="row text-center">
-          <div class="col-md-12">
-              <h3 class="title">Creative <span class="themecolor">Team</span></h3>
-            <p class="a-slog">Lorem ipsum dolor sit amet ne onsectetuer adipiscing elit. Aenean commodo ligula eget dolor in tashin ty</p>
-          </div> 
-        </div>
-          <div class="row text-center">
-          <div class="col-sm-3">
-            <img src="images/team-1.jpg" alt="team-member" class="img-responsive">
-            <h4>Ramshad Smith</h4>
-            <h5>Founder</h5>
-            <p>Hey, I’m Johm Smith residing in this beautiful world. I create websites and mobile...</p>
-            <ul class="list-inline top20">
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-              <li><a href="#"><i class="fa fa-behance"></i></a></li>
-            </ul>
-          </div> <!-- team-member -->
-
-          <div class="col-sm-3">
-            <img src="images/team-2.jpg" alt="team-member" class="img-responsive">
-            <h4>Meera Deo</h4>
-            <h5>Web Designer</h5>
-            <p>Hey, I’m Meera Deo residing in this beautiful world. I create websites and mobile...</p>
-            <ul class="list-inline top20">
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-              <li><a href="#"><i class="fa fa-behance"></i></a></li>
-            </ul>
-          </div> <!-- team-member -->
-
-          <div class="col-sm-3">
-            <img src="images/team-3.jpg" alt="team-member" class="img-responsive">
-            <h4>Ramkumar Deo</h4>
-            <h5>Manager</h5>
-            <p>Hey, I’m Ramkumar Deo residing in this beautiful world. I create websites and mobile...</p>
-            <ul class="list-inline top20">
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-              <li><a href="#"><i class="fa fa-behance"></i></a></li>
-            </ul>
-          </div> <!-- team-member -->
-
-          <div class="col-sm-3">
-            <img src="images/team-4.jpg" alt="team-member" class="img-responsive">
-            <h4>Antony Kovalsky</h4>
-            <h5>Graphic Designer</h5>
-            <p>Hey, I’m Antony Kovalsky residing in this beautiful world. I create websites and mobile...</p>
-            <ul class="list-inline top20">
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-              <li><a href="#"><i class="fa fa-behance"></i></a></li>
-            </ul>
-          </div> <!-- team-member -->
-        </div> <!-- end row -->
-
-        <div class="row margin-top">
-          <div class="col-md-12 text-center">
-            <a href="#" class="btn btn-custom theme_background_color ">We are Hiring</a>
-          </div> <!-- /col -->
-        </div> <!-- /row -->
-          
-      </div>
-  </section>
- 
- <!-- [/OUR TEAM]
- ============================================================================================================================-->
- 
-
  <!-- [STATS]
  ============================================================================================================================-->
  <section class="our-stats" id="five">
@@ -365,52 +168,53 @@ VERSION : 1.1
                 <div class="col-md-3 col-sm-6">
                     <div class="our-stats-box text-center">
                         <div class="our-stat-icon">
-                            <span class="fa fa-ge"></span>
+                            <span class="fa fa-mortar-board"></span>
                         </div>
                         <div class="our-stat-info">
-                            <span class="stats" data-from="4763904" data-to="4764504" data-speed="5000"
+                            <span class="stats" data-from="0" data-to="218" data-speed="5000"
                                   data-refresh-interval="50"></span>
 
-                            <h5>Total Downloaded</h5>
+                            <h5>ESTUDANTES POTENCIALIZADOS
+</h5>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="our-stats-box text-center">
                         <div class="our-stat-icon">
-                            <span class="fa fa-git-square"></span>
+                            <span class="fa fa-list-alt"></span>
                         </div>
                         <div class="our-stat-info">
-                            <span class="stats" data-from="1" data-to="504" data-speed="5000"
+                            <span class="stats" data-from="0" data-to="113" data-speed="5000"
                                   data-refresh-interval="50"></span>
 
-                            <h5>Editors Supported</h5>
+                            <h5>PROJETOS REALIZADOS</h5>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="our-stats-box text-center">
                         <div class="our-stat-icon">
-                            <span class="fa fa-globe"></span>
+                            <span class="fa fa-users"></span>
                         </div>
                         <div class="our-stat-info">
-                            <span class="stats" data-from="1" data-to="359" data-speed="5000"
+                            <span class="stats" data-from="0" data-to="95" data-speed="5000"
                                   data-refresh-interval="50"></span>
 
-                            <h5>Languages Detected</h5>
+                            <h5>CLIENTES IMPACTADOS</h5>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="our-stats-box text-center">
                         <div class="our-stat-icon">
-                            <span class="fa fa-gears"></span>
+                            <span class="fa fa-trophy"></span>
                         </div>
                         <div class="our-stat-info">
-                            <span class="stats" data-from="3500" data-to="5000" data-speed="5000"
+                            <span class="stats" data-from="0" data-to="6" data-speed="5000"
                                   data-refresh-interval="50"></span>
 
-                            <h5>Happy Clients</h5>
+                            <h5>PRÊMIOS RECEBIDOS</h5>
                         </div>
                     </div>
                 </div>
@@ -427,30 +231,48 @@ VERSION : 1.1
  
  <!-- [TESTIMONIAL]
  ============================================================================================================================-->
+
  <section class="client-testimonial text-center white" id="six">
   
             <div class="container">
                 <div class="row">
+                
+
                 <div class="col-md-12">
-                    <h3 class="title">Client <span class="themecolor">Testimonials</span></h3>            
-          </div> 
+                             
+                </div> 
                 
                     <div class="col-md-8 col-md-offset-2 grey">
+
                         <div id="testimonial" class="owl-carousel owl-theme">
                             <div class="item">
-                                <h5>This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</h5>
-                                <p><strong>Dean Martin</strong>, CEO Acme Inc.</p>
+                              <h3 class="title"><span class="main-element themecolor" data-elements="Soluções em Gestão Empresarial: "></span></h3>    
+                               
+                               <a href="#two" class="page-scroll"><img src="images/servicos/Planejamento-Financeiro.png" class="img-responsive" id="servicos" title="Planejamento Financeiro"></a> 
+                                 
+                               <a href="#two" class="page-scroll"><img src="images/servicos/Pesquisa-de-Mercado.png" class="img-responsive" id="servicos"  title="Pesquisa de Mercado" > </a> 
+                                 
+                               <a href="#two" class="page-scroll"><img src="images/servicos/Reest.png" class="img-responsive" id="servicos" title="Reestruturação Organizacional"> </a> 
+                                 
+                                <a href="#two" class="page-scroll"><img src="images/servicos/Diagnostico-de-sistema.png" class="img-responsive" id="servicos" title="Diagnóstico de Sistema de Custeio"> </a> 
+                                
+                               <a href="#two" class="page-scroll"> <img src="images/servicos/Cliente-Oculto.png" class="img-responsive" id="servicos" title="Cliente Oculto ">  </a> 
+                            
+                            </div>
+                           
+                            <div class="item">
+                              <h3 class="title"><span class="main-element themecolor" data-elements="Soluções para Abertura de Novos Negócios:"></span></h3> 
+                               
+                               <a href="#two" class="page-scroll"> <img src="images/servicos/ANALS.png" class="img-responsive" id="servicos" title="Ánalise de Viabilidade Financeira"></a>
+                               
+                                <a href="#two" class="page-scroll"> <img src="images/servicos/Pesquisa-de-Mercado.png" class="img-responsive" id="servicos" title="Pesquisa de Mercado"></a>
+                                
+                               <a href="#two" class="page-scroll"> <img src="images/servicos/Inovação em modelo.png" class="img-responsive" id="servicos" title="Cliente Oculto " ></a>
+                           
                             </div>
 
-                            <div class="item">
-                                <h5>This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</h5>
-                                <p><strong>Dean Martin</strong>, CEO Acme Inc.</p>
-                            </div>
-
-                            <div class="item">
-                                <h5>This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</h5>
-                                <p><strong>Dean Martin</strong>, CEO Acme Inc.</p>
-                            </div>
+                          
+                          
                         </div>
                     </div>
                 </div>
@@ -459,7 +281,6 @@ VERSION : 1.1
      
      
  </section> 
- 
  <!-- [/TESTIMONIAL]
  ============================================================================================================================-->
  
@@ -471,7 +292,7 @@ VERSION : 1.1
       <div class="container">
         <div class="row text-center">
           <div class="col-md-12">
-              <h3 class="title"><span class="themecolor">Diferenciais </span></h3>
+              <h3 class="title"><span class="main-element themecolor" data-elements="Diferenciais"></span></h3>
             <!--<p class="a-slog">Lorem ipsum dolor sit amet ne onsectetuer adipiscing elit. Aenean commodo ligula eget dolor in tashin ty</p>-->
           </div> <!-- /col -->
         </div> <!-- /row -->
@@ -557,24 +378,26 @@ VERSION : 1.1
  
  <!-- [/SERVICES]
  ============================================================================================================================-->
-
-
- <!-- [INSPIRATION]
+ 
+ 
+ <!-- [CONTACT]
  ============================================================================================================================-->
- <section class="inspiration" id="four">
+ 
+
+     
+     
+ </section> 
+<section class="inspiration" id="four">
      <div class="overlay">
          <div class="container">
              <div class="row">
                  <article class="col-md-12 text-center">
             <div class="intermediate-container">
-             <!-- <div class="subheading">
-                  <h4>Are You Ready To <span class="themecolor">Enjoy?</span></h4>
-              </div>-->
               <div class="heading">
-                <h2>FAÇA AGORA MESMO SEU DIAGNÓSTICO ONLINE GRÁTIS!</h2>
+                <h2 style="text-shadow: 1px 1px black;">FAÇA AGORA MESMO O SEU DIAGNÓSTICO ONLINE GRÁTIS!</h2>
               </div>
               <div class="">
-                <a class="btn btn-custom-outline" href="#"><span>Clique aqui!</span></a>
+                <a class="btn btn-custom-outline" href="#"><span>clique aqui!</span></a>
               </div>
             </div>
           </article>
@@ -583,35 +406,7 @@ VERSION : 1.1
      </div>
  </section>
  
- <!-- [/INSPIRATION]
- ============================================================================================================================--> 
- 
- 
- <!-- [CONTACT]
- ============================================================================================================================-->
- 
- <!--sub-form-->
-<section class="sub-form text-center" id="eight">
-  <div class="container">
-    <div class="col-md-12">
-        <h3 class="title">Subscribe to our <span class="themecolor"> News letter</span></h3>
-            <p class="lead">Lorem ipsum dolor sit amet ne onsectetuer adipiscing elit. Aenean commodo ligula eget dolor in tashin ty</p>
-    </div> 
-    <div class="row">
-        <div class="col-md-3 col-sm-3"></div>
-      <div class="col-md-6 center-block col-sm-6 ">
-        
-      </div>
-    </div>
-  </div>
-</section>
-<!--sub-form end--> 
 
-
- 
- <!-- [/CONTACT]
- ============================================================================================================================-->
- 
  
  <!-- [FOOTER]
  ============================================================================================================================-->
@@ -619,25 +414,24 @@ VERSION : 1.1
 
 
  <div id="footer">
-        <div class="row">
-            <div class="col-md-4">
-                <h4>Nossos contatos</h4>
+      
+                <h3 class="title"><span class="main-element themecolor" data-elements="Nossos Contatos"></span></h3>
                 <hr>
 
-                <p style=" letter-spacing: 2px;">
+                <p style=" letter-spacing: 2px;font-size:15px;">
                 <i class="fa fa-envelope" style="font-size:20px; color:#fff;"></i>
                 inovaej@gmail.com
                 </p>
-                <p style=" letter-spacing: 2px;">
+                <p style=" letter-spacing: 2px;font-size:15px;">
                 <i class="fa fa-phone" style="font-size:20px; color:#fff;"></i>
                 (85) 3366-7829
                 </p>
-                <p style=" letter-spacing: 2px;">
+                <p style=" letter-spacing: 2px;font-size:15px;">
                 <i class="fa fa-map-marker" style="font-size:20px; color:#fff;"></i>
                 Av. da Universidade, 2431 - Benfica, Fortaleza - CE, 60020-903
                 </p>
-            </div>
-            <div class="col-md-4">
+            
+            <!--<div class="col-md-4">
                 <h4>Links do site</h4>
                 <hr>
                 <p style=" letter-spacing: 2px;">
@@ -646,9 +440,9 @@ VERSION : 1.1
                     Call: +23-00-89-009<br>
                     Email: demo@yourdomain.com<br>
                 </p>
-            </div>
+            </div>-->
                 
-            </div>
+            
         </div>
 
 <footer class="site-footer section-spacing text-center " id="eight">
@@ -679,10 +473,7 @@ VERSION : 1.1
  
  
 
- 
 
-<!-- [ /WRAPPER ]
-=============================================================================================================================-->
 
 	<!-- [ DEFAULT SCRIPT ] -->
 	<script src="library/modernizr.custom.97074.js"></script>
@@ -721,6 +512,8 @@ VERSION : 1.1
     <script src="js/jquery.nicescroll.min.js"></script>
     <!-- CUSTOM SCRIPTS  -->
     <script src="js/custom.js"></script>
+
+    <script language="JavaScript" src="ie.js" type="text/JavaScript"></script>
 
 </body>
 

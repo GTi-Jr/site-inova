@@ -1,3 +1,4 @@
+
 /*!
  * Bootstrap v3.0.1 by @fat and @mdo
  * Copyright 2013 Twitter, Inc.
@@ -305,10 +306,10 @@ html {
 }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Geometria Light", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.428571429;
-  color: #333333;
+  color: #fff;
   background-color: #000;
 }
 
@@ -322,7 +323,7 @@ textarea {
 }
 
 a {
-  color: #428bca;
+  color: #C41933;
   text-decoration: none;
 }
 
@@ -481,7 +482,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family:"Zona Pro Bold";
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
