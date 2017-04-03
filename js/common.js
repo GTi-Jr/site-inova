@@ -73,7 +73,7 @@ VERSION : 1.1
       if(top_v>=30)
       {
         
-          $(".nim-menu").css({height:"80px",padding:"15px",background:"#fff",boxShadow:"2px 2px 3px 3px rgba(0,0,0,0.3"});
+          $(".nim-menu").css({height:"90px",padding:"15px",background:"#fff",boxShadow:"2px 2px 3px 3px rgba(0,0,0,0.3"});
           $(".nim-menu ul ul").css({background:"#fff"});
           $(".nim-menu.navbar-default .navbar-nav > li > a,a.navbar-brand").css("color","#000");
           $(".nim-menu li i").css("color","#000");
@@ -81,7 +81,7 @@ VERSION : 1.1
        }
       else
       {
-          $(".nim-menu").css({height:"0px",padding:"15px",background:"#000",boxShadow:"2px 2px 3px 3px rgba(0,0,0,0.3"});
+          $(".nim-menu").css({height:"90px",padding:"15px",background:"#000",boxShadow:"2px 2px 3px 3px rgba(0,0,0,0.3"});
           $(".nim-menu ul ul").css({background:"#000"});
           $("a.navbar-brand").css("color","#fff"); 
           $(".nim-menu li i").css("color","#fff");         

@@ -688,7 +688,7 @@ p.lead
 ------------------------------*/
 .client-testimonial
 {
- background:url("../images/diag.jpg");
+ background:url("../images/img-3.jpg");
  background-position: center center;
  background-attachment: fixed;
  background-size:cover;
@@ -718,7 +718,7 @@ p.lead
 /*	STATS
 ------------------------------*/
 .our-stats {
-    background: #B21936;
+    background: #000;
 }
 
 .our-stats>.container
@@ -1103,8 +1103,8 @@ border-radius: 23px;
 .main{
 
     background:url("../images/bak3.jpg");
-     height:600px;
-    margin-top: 90px;
+     height:700px;
+    margin-top: 50px;
     }
 .main p.txt{
     padding-top:100px;
@@ -1121,3 +1121,6 @@ border-radius: 23px;
     margin-top: 100px;
 
     }
+
+
+
