@@ -1032,6 +1032,21 @@ font-family: 'Zona Pro Thin';
 
     }
 
+
+#servicos{
+
+float: center;
+    font-size: 1.6em;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    transition: all 200ms ease-in;
+    -webkit-transition: all 200ms ease-in;
+    display: inline-block;
+    
+}
+
+
 .txt {
 
 text-align: justify; 
@@ -1123,4 +1138,13 @@ border-radius: 23px;
     }
 
 
+
+
+
+.txt2 {
+
+text-align: center; 
+color: color;
+
+}
 
