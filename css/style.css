@@ -421,7 +421,7 @@ color:#fff;
 
 .nim-menu li:hover ul  {
     visibility: visible;
-    background-color: #fff;
+    background-color: #000;
 
     
 } 
@@ -1012,6 +1012,23 @@ font-family: 'Zona Pro Thin';
 
     
 }
+
+
+#clientes{
+
+    float: left;
+    font-size: 1.6em;
+    width: 120px;
+    height: 100px;
+    text-align: center;
+    transition: all 200ms ease-in;
+    -webkit-transition: all 200ms ease-in;
+    display: inline-block;
+
+    
+}
+
+
 #servicos{
  
     float: center;
@@ -1033,18 +1050,15 @@ font-family: 'Zona Pro Thin';
     }
 
 
-#servicos{
+/*.img-responsive:hover
+{
+        background:#53a7ea;
+        border-radius: 20px;
+        border-bottom: 20px;
+        border-style: 20px;
+}*/
 
-float: center;
-    font-size: 1.6em;
-    width: 70px;
-    height: 70px;
-    text-align: center;
-    transition: all 200ms ease-in;
-    -webkit-transition: all 200ms ease-in;
-    display: inline-block;
-    
-}
+
 
 
 .txt {
@@ -1132,19 +1146,15 @@ border-radius: 23px;
 
     .maininstitucional{
     background:url("../images/team.jpg");
-     height:200px;
+     height:100px;
     margin-top: 100px;
 
     }
 
+    .clienteseparceiros{
+ background:url("../images/clientes.jpg");
+
+    }
 
 
-
-
-.txt2 {
-
-text-align: center; 
-color: color;
-
-}
 
