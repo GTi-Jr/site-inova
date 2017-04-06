@@ -664,6 +664,7 @@ p.lead
  background-attachment: fixed;
  background-size:cover;
 }
+<<<<<<< HEAD
 
 .clienteseparceiros
 {
@@ -673,6 +674,8 @@ p.lead
  background-size:cover;
 }
 
+=======
+>>>>>>> e6a6c142fcb04515ea50e5c99d60c36a847648b1
 .inspiration >.overlay.container
 {
     padding:80px 0px;
@@ -1021,6 +1024,7 @@ font-family: 'Zona Pro Thin';
 
     
 }
+<<<<<<< HEAD
 
 
 #clientes{
@@ -1037,6 +1041,8 @@ font-family: 'Zona Pro Thin';
 }
 
 
+=======
+>>>>>>> e6a6c142fcb04515ea50e5c99d60c36a847648b1
 #servicos{
  
     float: center;
@@ -1148,6 +1154,7 @@ border-radius: 23px;
     }
 
 
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -1185,3 +1192,6 @@ border-radius: 23px;
     </form>
 </body>
 </html>
+=======
+
+>>>>>>> e6a6c142fcb04515ea50e5c99d60c36a847648b1
