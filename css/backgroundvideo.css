@@ -2,11 +2,10 @@
    HOME/VEDIO SECTION STYLES
  ============================================================ */
 #home-sec {
-    height:600px;
-    
+
     text-align:center;
-    
-    margin-top: 90px;
+    height:700px;
+    margin-top: 50px;
 }
     #home-sec .overlay {
         

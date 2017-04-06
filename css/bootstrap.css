@@ -7056,3 +7056,13 @@ td.visible-print {
     display: none !important;
   }
 }
+.navbar-nav > li ul a 
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+}.nav > li ul a {
+      position: relative;
+    display: block;
+    padding: 10px 15px;
+}
