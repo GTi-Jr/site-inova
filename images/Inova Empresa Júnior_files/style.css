@@ -688,7 +688,7 @@ p.lead
 ------------------------------*/
 .client-testimonial
 {
- background:url("../images/img-3.jpg");
+ background:url("../images/diag.jpg");
  background-position: center center;
  background-attachment: fixed;
  background-size:cover;
@@ -718,7 +718,7 @@ p.lead
 /*	STATS
 ------------------------------*/
 .our-stats {
-    background: #000;
+    background: #B21936;
 }
 
 .our-stats>.container
@@ -1032,21 +1032,6 @@ font-family: 'Zona Pro Thin';
 
     }
 
-
-#servicos{
-
-float: center;
-    font-size: 1.6em;
-    width: 70px;
-    height: 70px;
-    text-align: center;
-    transition: all 200ms ease-in;
-    -webkit-transition: all 200ms ease-in;
-    display: inline-block;
-    
-}
-
-
 .txt {
 
 text-align: justify; 
@@ -1114,37 +1099,3 @@ border-radius: 23px;
     background-color: transparent;
     
 }
-
-.main{
-
-    background:url("../images/bak3.jpg");
-     height:700px;
-    margin-top: 50px;
-    }
-.main p.txt{
-    padding-top:100px;
-        font-size:50px;
-        font-weight:900;
-        padding-bottom:30px;
-        color: #C41933;
-        line-height: 50px; 
-    }
-
-    .maininstitucional{
-    background:url("../images/team.jpg");
-     height:200px;
-    margin-top: 100px;
-
-    }
-
-
-
-
-
-.txt2 {
-
-text-align: center; 
-color: color;
-
-}
-
