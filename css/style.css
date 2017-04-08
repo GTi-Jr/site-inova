@@ -431,7 +431,25 @@ color:#fff;
     color:#fff;
 }    
 
+@media (max-width: 767px) {
+  .nim-menu ul ul {
+    position: static;
+    overflow: hidden;
+    max-height: 0;
+    transition: all .4s;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+  }
 
+  .nim-menu ul li:hover ul{
+height: auto;
+max-height: 200px;
+  } 
+}
        
 /*	MAIN HEADING
 ------------------------------*/
@@ -1145,9 +1163,9 @@ border-radius: 23px;
     }
 
     .maininstitucional{
-    background:url("../images/team.jpg");
+    background-color:#C41933;;
      height:100px;
-    margin-top: 100px;
+    
 
     }
 
