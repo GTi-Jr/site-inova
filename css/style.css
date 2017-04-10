@@ -458,14 +458,7 @@ max-height: 200px;
 
 
 .overlay{
-	background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.8)), color-stop(17%,rgba(0,0,0,0.73)), color-stop(35%,rgba(0,0,0,0.66)), color-stop(62%,rgba(0,0,0,0.55)), color-stop(100%,rgba(0,0,0,0.4))); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#66000000',GradientType=0 ); /* IE6-9 */
-	//background-attachment: fixed;
+
         height:auto;
         height:100%;
         position:relative;
@@ -1169,10 +1162,60 @@ border-radius: 23px;
 
     }
 
+
+
+.cont{
+    background-color:#fff;;
+     height:100px;
+    
+
+    }
     .clienteseparceiros{
  background:url("../images/clientes.jpg");
 
     }
 
+  .formulario{;
+
+color: #000;
+font-family: 'ZonaPro-Thin"';
+display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+    }
 
 
+#submit {
+    background:url("../images/enviar.jpg");
+    width:127px;
+    height:38px;
+    text-indent:-9999px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+}
+
+#submit:hover {
+        opacity:0.9;
+    }
+
+input, textarea {
+    height:27px;
+    background:#efefef;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border:1px solid #dedede;
+    padding:10px;
+    margin-top:3px;
+    font-size:0.9em;
+    color:#3a3a3a;
+}
+input:focus, textarea:focus {
+        border:100px solid #97d6eb;
+    }
+    textarea {
+    height:100px;
+    width: 300px;
+    background:url("../images/textarea-bg.jpg") right no-repeat #efefef;
+}
