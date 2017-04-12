@@ -139,16 +139,3 @@ border: 1px solid #E9E9E9;
    FOOTER SECTION
    ========================================================================== */
 
-
-#footer {
-    background-color: #000;
-    color: #696969;
-    padding: 50px;
-
-}
-#footer h3 {
-    text-align: center;
-}
- #footer a {
-    text-align: left;
- }

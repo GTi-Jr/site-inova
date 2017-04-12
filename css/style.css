@@ -459,6 +459,13 @@ max-height: 200px;
 
 .overlay{
 
+    background: -moz-linear-gradient(top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%);
+     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.8)), color-stop(17%,rgba(0,0,0,0.73)), color-stop(35%,rgba(0,0,0,0.66)), color-stop(62%,rgba(0,0,0,0.55)), color-stop(100%,rgba(0,0,0,0.4))); */
+     background: -webkit-linear-gradient(top, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); */
+    background: -o-linear-gradient(top, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%);
+    background: -ms-linear-gradient(top, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#66000000',GradientType=0 );
         height:auto;
         height:100%;
         position:relative;
@@ -675,6 +682,90 @@ p.lead
  background-attachment: fixed;
  background-size:cover;
 }
+.sol
+{
+ background:url("../images/sol/Plano de Marketing.png");
+ background-position: center center;
+ background-attachment: fixed;
+ background-size:cover;
+}
+.sol2
+{
+ background:url("../images/sol/Planejamento Financeiro.jpg");
+ background-position: center center;
+ background-attachment: fixed;
+ background-size:cover;
+}
+.sol3
+{
+ background:url("../images/sol/Pesquisa de clima organizacional.jpg");
+ background-position: center center;
+ background-attachment: fixed;
+ background-size:cover;
+}
+.sol4
+{
+ background:url("../images/sol/Pesquisa de Mercado.jpg");
+ background-position: center center;
+ background-attachment: fixed;
+ background-size:cover;
+}
+.sol5
+{
+ background:url("../images/sol/Reestruturação Organizacional.jpg");
+ background-position: center center;
+ background-attachment: fixed;
+ background-size:cover;
+}
+.sol6
+{
+ background:url("../images/sol/Diagnostico de Sistema de custeio.jpg");
+ background-position: center center;
+ background-attachment: fixed;
+ background-size:cover;
+}
+.sol7
+{
+ background:url("../images/sol/Cliente oculto.jpg");
+ background-position: center center;
+ background-attachment: fixed;
+ background-size:cover;
+}
+.sol8
+{
+ background:url("../images/sol/Inovação em modelo de negocios.jpg");
+ background-position: center center;
+ background-attachment: fixed;
+ background-size:cover;
+}
+.sol9
+{
+ background:url("../images/sol/Analise de viabilidade.jpg");
+ background-position: center center;
+ background-attachment: fixed;
+ background-size:cover;
+}
+.sol10
+{
+ background:url("../images/sol/Pesquisa de Mercado - Novos Negócios.jpg");
+ background-position: center center;
+ background-attachment: fixed;
+ background-size:cover;
+}
+.pagescrollsol{
+    background-color: #000;
+    
+    padding: 15px 15px;
+    
+    
+
+}
+.pagescrollsol a{
+    font-size: 13px;
+    
+    
+
+}
 .inspiration >.overlay.container
 {
     padding:80px 0px;
@@ -888,7 +979,7 @@ font-family: 'Zona Pro Thin';
 -------------------------------------------------------*/
 .site-footer
 {
-    background:#fafafa;
+    background:#2F2E2E;
     font-size:0.93em;
 }
 .site-footer >.container
@@ -1139,6 +1230,18 @@ border-radius: 23px;
     background-color: transparent;
     
 }
+.bj
+{
+border-radius: 23px;
+    padding: 0.8em 1.8em;
+    color: #C41933;; 
+    font-weight: 700;
+    -webkit-transition: all .5s ease-out;
+    transition: all .5s ease-out;
+    text-transform: uppercase;
+    background-color: transparent;
+    
+}
 
 .main{
 
@@ -1211,9 +1314,7 @@ input, textarea {
     font-size:0.9em;
     color:#3a3a3a;
 }
-input:focus, textarea:focus {
-        border:100px solid #97d6eb;
-    }
+
     textarea {
     height:100px;
     width: 300px;
