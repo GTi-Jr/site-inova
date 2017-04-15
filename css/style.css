@@ -354,7 +354,7 @@ div.preloader {
  
 /* Navigation */
 .nim-menu{
-	padding: 10px;
+	padding: 15px;
 	transition: all 0.8s;
         background:#000;
         border-bottom:none;
@@ -790,7 +790,7 @@ p.lead
 ------------------------------*/
 .client-testimonial
 {
- background:url("../images/img-3.jpg");
+ background:url("../images/img-2.jpg");
  background-position: center center;
  background-attachment: fixed;
  background-size:cover;
@@ -1184,7 +1184,7 @@ font-family: "Geometria_Light" !important;
       }
 
       
-      h4, h5{
+      h3, h4, h5{
     font-family: "ZonaPro-Thin" !important;  
     color: #000;
        } 
@@ -1260,7 +1260,7 @@ border-radius: 23px;
 
     .maininstitucional{
     background-color:#C41933;;
-     height:100px;
+     height:50px;
     
 
     }

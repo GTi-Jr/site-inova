@@ -1,27 +1,4 @@
-@charset "utf-8";
-/* CSS Document */
 
-@font-face {
-    font-family: 'BebasRegular';
-    src: url('fonts/BEBAS___-webfont.eot');
-    src: url('fonts/BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/BEBAS___-webfont.woff') format('woff'),
-         url('fonts/BEBAS___-webfont.ttf') format('truetype'),
-         url('fonts/BEBAS___-webfont.svg#BebasRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-body {
-	font-size:100%;
-	font-family:Georgia, "Times New Roman", Times, serif;
-	color:#3a3a3a;
-}
-
-.body {
-	width:576px;
-	margin:0 auto;
-	display:block;
 }
 
 h1 {

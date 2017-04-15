@@ -19,11 +19,9 @@ VERSION : 1.1
             init:function()
             {
               App.typing();
-              App.owlTestimonial();
               App.stats();
               App.menuAnimation();
               App.navigate();
-              App.contactsubmit();
               App.imagepopup();
              	
             },
@@ -46,16 +44,7 @@ VERSION : 1.1
         },
         
        
-    
-    owlTestimonial:function()
-    {
-        $("#testimonial").owlCarousel({
-        navigation : false, // Show next and prev buttons
-        slideSpeed : 300,
-        paginationSpeed : 400,
-        singleItem:true
-        });
-    },
+   
     stats:function()
    {
         $('.our-stats-box').each(function () {
@@ -114,37 +103,7 @@ VERSION : 1.1
         $('.show-image').magnificPopup({type: 'image'});
     },
    
-   contactsubmit:function()
-   {
-       $('#mc-form').submit(function(e){
-		var form = $(this);
-		e.preventDefault();		
-		$.ajax({
-			type: 'POST',
-			url : 'php/sendmail.php',
-			data: form.serialize(),
-			success: function(data){
-				form.find('.form-message').html(data).fadeIn();
-		
-				form.find('.btn').prop('disabled', true);
-					
-				if ($(data).is('.send-true')){
-					setTimeout(function(){
-						form.trigger('reset');
-						
-						form.find('.btn').prop('disabled', false);
-						
-						form.find('.form-message').fadeOut().delay(500).queue(function(){
-							form.find('.form-message').html('').dequeue();
-						});
-					}, 2000);
-				} else {
-					form.find('.btn').prop('disabled', false);
-				}
-			}
-		});
-  });
-   },
+   
 			
         };
         App.init();
@@ -154,18 +113,3 @@ VERSION : 1.1
 
 
 /*+++++++++++++++++++++++++COMMON FUNCTIONS++++++++++++++++++++++++++++*/
-
-/*KENBERG SLIDER*/
-
- var fullscreenslider=function()
-  {
-      $("section.main-heading").vegas({
-	delay: 3000,
-    slides: [
-        { src: "images/bak3.jpg" },
-        { src: "images/bak2.jpg" },
-        { src: "images/bak3.jpg" },
-        { src: "images/bak4.jpg" }
-    ],animation: 'kenburns'
-});
-  }
