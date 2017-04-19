@@ -141,7 +141,7 @@ main#home #part2 .content .span_10 {
 main#home #part2 .content .span_10 p {
   
   color: #ffffff;
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 300;
   line-height: 35px;
   margin-bottom: 45px;
@@ -444,7 +444,7 @@ main#home #part7 .content h3 {
 @media (min-width: 0) and (max-width: 779px) {
   /* line 502, ../sass/screen.scss */
  main#home #part7 .content .span_10 p  {
-    font-size: 26px;
+    font-size: 20px;
         margin: 0 auto
         line-height: 35px; 
 
@@ -453,4 +453,15 @@ main#home #part7 .content h3 {
 @media (max-width: 779px) and (min-width: 0){
 main#home #part7 .content {
     padding: 0 25px;
-}}
+
+}
+.overlay > .container {
+    padding: 90px 0px;
+}
+
+.maininstitucional{
+height: 100px;
+
+}
+
+}
