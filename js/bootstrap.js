@@ -2112,3 +2112,9 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
   })
 
 }(jQuery);
+$(document).ready(function(){
+    $(".valores-box").click(function(){
+        $(".service-desc").slideToggle(300);
+    });
+});
+
