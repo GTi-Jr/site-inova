@@ -183,9 +183,7 @@ text-align:justify;
 .margin-top {
 	margin-top: 30px;
 }
-.margin-bottom {
-	margin-bottom: 30px;
-}
+
 
 .a-slog {
 	font-size:0.93em;
@@ -265,95 +263,6 @@ h1, h2, h3, h4, h5, h6,
 	margin-right: 10px;
 }
 
-/*	PRELOADER
-------------------------------*/
-
-div.preloader {
-    position: fixed;
-    left: 0;
-    top: 0;
-    z-index: 9999;
-    width: 100%;
-    height: 100%;
-    overflow: visible;
-    background-color: #f7f7f7;
-}
-
-@-webkit-keyframes loader {
-    0%, 10%, 100% {
-        width: 80px;
-        height: 80px;
-    }
-    65% {
-        width: 150px;
-        height: 150px;
-    }
-}
-
-@keyframes loader {
-    0%, 10%, 100% {
-        width: 80px;
-        height: 80px;
-    }
-    65% {
-        width: 150px;
-        height: 150px;
-    }
-}
-
-.loader {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 80px;
-    height: 80px;
-    -webkit-transform: translate(-50%, -50%) rotate(45deg) translate3d(0, 0, 0);
-    transform: translate(-50%, -50%) rotate(45deg) translate3d(0, 0, 0);
-    -webkit-animation: loader 1.2s infinite ease-in-out;
-    animation: loader 1.2s infinite ease-in-out;
-    border-radius:50%;
-    -webkit-border-radius:50%;
-    -moz-border-radius:50%;
-}
-
-.loader span {
-    position: absolute;
-    display: block;
-    width: 40px;
-    height: 40px;
-    left:50%;
-    margin-left:-20px;
-    top:50%;
-    margin-top:20px;
-    border-radius:50%;
-    -webkit-animation: loaderBlock 1.2s infinite ease-in-out both;
-    animation: loaderBlock 1.2s infinite ease-in-out both;
-    background:#000;
-}
-
-.loader span:nth-child(1) {
-    top: 0;
-    left: 0;
-}
-
-.loader span:nth-child(2) {
-    top: 0;
-    right: 0;
-    -webkit-animation: loaderBlockInverse 1.2s infinite ease-in-out both;
-    animation: loaderBlockInverse 1.2s infinite ease-in-out both;
-}
-
-.loader span:nth-child(3) {
-    bottom: 0;
-    left: 0;
-    -webkit-animation: loaderBlockInverse 1.2s infinite ease-in-out both;
-    animation: loaderBlockInverse 1.2s infinite ease-in-out both;
-}
-
-.loader span:nth-child(4) {
-    bottom: 0;
-    right: 0;
-}
 
 
 /*	RAMSH-STYLE STARTS HERE
@@ -696,6 +605,7 @@ p.lead
  background-attachment: fixed;
  background-size:cover;
   height: 450px;
+      
 }
 .sol2
 {
@@ -704,7 +614,7 @@ p.lead
  background-attachment: fixed;
  background-size:cover;
  height: 450px;
- border-bottom: 4px solid #C41B33;
+ 
 }
 
 
@@ -715,6 +625,7 @@ p.lead
  background-attachment: fixed;
  background-size:cover;
   height: 450px;
+      
 }
 .sol4
 {
@@ -723,6 +634,7 @@ p.lead
  background-attachment: fixed;
  background-size:cover;
   height: 450px;
+      
 }
 .sol5
 {
@@ -731,6 +643,7 @@ p.lead
  background-attachment: fixed;
  background-size:cover;
   height: 450px;
+      
 }
 .sol6
 {
@@ -739,6 +652,7 @@ p.lead
  background-attachment: fixed;
  background-size:cover;
   height: 450px;
+      
 }
 .sol7
 {
@@ -747,14 +661,16 @@ p.lead
  background-attachment: fixed;
  background-size:cover;
   height: 450px;
+      
 }
 .sol8
 {
- background:url("../images/sol/Inovação-em-modelo-de-negocios.jpg");
+ background:url("../images/sol/Inovacao-em-modelo-de-negocios.jpg");
  background-position: center center;
  background-attachment: fixed;
  background-size:cover;
  height: 450px;
+    
 }
 .sol9
 {
@@ -763,6 +679,7 @@ p.lead
  background-attachment: fixed;
  background-size:cover;
   height: 450px;
+      
 }
 .sol10
 {
@@ -771,7 +688,25 @@ p.lead
  background-attachment: fixed;
  background-size:cover;
   height: 450px;
+      
 }
+
+@media (max-width: 779px) and (min-width: 0){
+ .sol2, .sol4, .sol5, .sol6, .sol8, .sol9, .sol10   {
+        height: 900px;
+
+ }
+}
+
+@media (max-width: 779px) and (min-width: 0){
+.sol7, .sol3, .sol   {
+        height: 700px;
+
+ }
+}
+
+
+
 .pagescrollsol{
     background-color: #000;
     
@@ -1185,7 +1120,7 @@ font-family: 'Zona Pro Thin';
 
 .txt {
 
-text-align: justify; 
+text-align: left; 
 font-family: "Geometria_Light" !important;
 }
 
@@ -1228,7 +1163,7 @@ font-family: "Geometria_Light" !important;
 
 .btn .entendamais
 {
-border-radius: 23px;
+
     padding: 0.8em 1.8em;
     /* color: #fff; */
     font-weight: 700;
@@ -1240,7 +1175,7 @@ border-radius: 23px;
 }
 .diagnostico 
 {
-border-radius: 23px;
+
     padding: 0.8em 1.8em;
     color: #fff; 
     font-weight: 700;
@@ -1250,9 +1185,22 @@ border-radius: 23px;
     background-color: transparent;
     
 }
+.contact
+{
+
+    padding: 0.8em 1.8em;
+    color: #555555;
+    font-weight: 700;
+    -webkit-transition: all .5s ease-out;
+    transition: all .5s ease-out;
+    text-transform: uppercase;
+    background-color: transparent;
+    
+}
+
 .bj
 {
-border-radius: 23px;
+
     padding: 0.8em 1.8em;
     color: #fff; 
     font-weight: 700;
@@ -1351,18 +1299,21 @@ input, textarea {
     background:url("../images/textarea-bg.jpg") right no-repeat #efefef;
 }
 .valores-box {
-    background: #C41933;
-    border-radius: 2px solid #fff;
-    padding: 5px 5px;
-   
+    background: #fff;
+    margin: 10px 5px;
 }
 
 .valores-box:hover {
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-    border-left: 10px solid #000; 
+    
+
+
     }
+    .valores-box:hover i{
+       opacity: 0.1;
+           }
 
 
 .divider-header {
@@ -1396,14 +1347,14 @@ position: relative;
 
 
 
-background-image: -webkit-linear-gradient(40deg, #000  50%, #C41933 50%);
+background-image: -webkit-linear-gradient(50deg, #000  70%, #B21936 30%);
 
 }
 
 
 #mej{
 
-    background:url("../images/mej.png") ;
+    background:url("../images/soicios.jpg") ;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -1448,17 +1399,152 @@ background-image: -webkit-linear-gradient(40deg, #000  50%, #C41933 50%);
 
  }
 }
-.service-icon .fa {
-    /* background: #ea474b; */
-    color: #fff;
-    font-size: 40px;
-    padding-top: 30px;
-    height: 50px;
-    width: 100px;
-    border-radius: 100px;
-    margin-bottom: 20px;
-}
 
 .overlay #servis {
     padding: 100px 0px;
+}
+
+.inspiration .container {
+    padding: 120px 60px;
+
+}
+@media (max-width: 779px) and (min-width: 0){
+.maininstitucionalcontact {
+     height: 90;
+
+ }
+}
+.maininstitucionalcontact {
+    background-color: #C41933;
+    }
+
+
+#diagblock{
+
+    border-left: 2px solid black;
+
+}
+
+.servicus-box {
+    padding: 5px 5px;
+    width: 90px;
+   height: 90px;
+   background: #B21936; 
+   -moz-border-radius: 70px; 
+   -webkit-border-radius: 70px; 
+   border-radius: 70px;
+   
+}
+
+.servicus-box:hover {
+    padding: 5px 5px;
+    background-color: #000;
+   
+}
+
+#home-services{
+
+ background-color: #fff;
+ height: 225px;
+
+}
+
+@media (max-width: 779px) and (min-width: 0){
+#home-services{
+     height: 650px;
+
+ }
+}
+
+.maininstitucionalval{
+  background-color: #C41933;
+}
+
+
+@media (max-width: 779px) and (min-width: 0){
+.maininstitucionalval {
+    height: 90;
+    background-color: #C41933;
+}
+}
+
+
+
+img#diferenciais:hover{
+
+
+  border: 2px solid #C41933;
+  border-radius: 50px;
+  
+} 
+
+a:hover,
+a:focus {
+    text-decoration: none;
+   
+}
+
+/* institucional */
+
+.plano-lista {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
+    margin: 30px -15px 0px -15px;
+}
+.plano-lista>li {
+    flex-grow: 1;
+    flex-basis: 130px;
+    text-align: center;
+    border-width:2px;
+    border-style: solid;
+    border-color: #C41933;
+
+    position: relative;
+    margin: 0px 25px 30px 25px;
+    padding: 68px 20px;
+    
+    list-style: none;
+    overflow: hidden;
+
+}
+
+.plano-lista>li>#slidee {
+  width: 100%;
+  height: 100%;
+  left:-100%;
+  top:0px;
+  position: absolute;
+  background-color: #C41933;
+  z-index: 2;
+  transition: 1s;
+}
+.plano-lista>li>#slidee>div {
+  height: 150px;
+  color: #fff;
+  vertical-align: middle;
+  display: table-cell;
+  font-family: "Geometria_Light" !important;
+  text-align: left;
+}
+
+.plano-lista>li:hover>#slidee {
+    transition: 1s;
+    left: 0;
+}
+
+
+
+.service-icon .fa {
+   
+    color: #C41933;
+    font-size: 40px;
+    
+}
+
+.aboutus{
+  background-image: -webkit-linear-gradient(59deg, #B21936  70%, #000 30%);
+  height: 370px;
+
 }
