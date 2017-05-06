@@ -1551,6 +1551,7 @@ a:focus {
 
 .clientes{
   background-color: #fff;
+
 }
 
 .lista-clientes{
@@ -1559,17 +1560,31 @@ display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: stretch;
-    margin: 20px 25px 20px 25px;
+
+    margin: 100px 25px 100px 25px;
 
 
 }
 
+
+
+
 .lista-clientes>li {
     flex-grow: 1;
-    flex-basis: 200px;
+    flex-basis: 100px;
     position: relative;
     list-style: none;
     overflow: hidden;
     margin: 0px 25px 30px 25px;
+    line-height: 20%;
+
+}
+
+
+.imgcliente:hover{
+
+  opacity: 0.4;
+  transition: 1s;
+  cursor: pointer;
 
 }
