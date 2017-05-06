@@ -28,10 +28,10 @@
 main#home #part1, main.page #part1, main.single-post #part1, main.search-results #part1, main.search-no-results #part1, main.category #part1, main.archive #part1 {
   width: 100%;
   height: 500px;
-  background-image: url("../images/contact.jpg");
+  background-image: url("../images/solu/1.png");
   text-align: center;
  
-  z-index: 1;
+  z-index: 2;
   position: relative;
     background-size: cover;
 
@@ -71,7 +71,7 @@ main#home #part1 h3 strong, main.page #part1 h3 strong, main.single-post #part1 
 /* line 419, ../sass/screen.scss */
 main#home #part1 .go_down, main.page #part1 .go_down, main.single-post #part1 .go_down, main.search-results #part1 .go_down, main.search-no-results #part1 .go_down, main.category #part1 .go_down, main.archive #part1 .go_down {
   margin-top: 90px;
-  position: relative;
+  position: absolute;
   z-index: 999;
 }
 /* line 427, ../sass/screen.scss */
@@ -163,7 +163,7 @@ main#home #part2 .content .span_10 p strong {
 main#home #part3 {
   width: 100%;
   height: 700px;
-  background-image: url("../images/hands.jpg");
+  background-image: url("../images/solu/2.png");
   margin-top: -135px;
   position: relative;
    background-size: cover;
@@ -171,7 +171,7 @@ main#home #part3 {
 main#home #part45 {
   width: 100%;
   height: 700px;
-  background-image: url("../images/meeting.jpg");
+  background-image: url("../images/solu/3.png");
   margin-top: -135px;
   position: relative;
    background-size: cover;
@@ -353,7 +353,7 @@ main#home #part4 .go_down {
 /* line 651, ../sass/screen.scss */
 main#home #part5 {
   width: 100%;
-  background-image: url("../images/proposta.jpg");
+  background-image: url("../images/solu/4.png");
   margin-top: -136px;
   text-align: center;
   height: 700px;
@@ -383,7 +383,7 @@ main#home #part5 .content h3 {
 }
 main#home #part6 {
   width: 100%;
-  background-image: url("../images/working.jpg");
+  background-image: url("../images/solu/5.png");
   margin-top: -136px;
   text-align: center;
   height: 700px;
@@ -413,10 +413,10 @@ main#home #part6 .content h3 {
 }
 main#home #part7 {
   width: 100%;
-  background-image: url("../images/time.jpg");
+  background-image: url("../images/solu/6.png");
   margin-top: -136px;
   text-align: center;
-  height: 900px;
+ 
   background-size: cover;
   
 
