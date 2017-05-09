@@ -609,7 +609,7 @@ p.lead
 }
 .sol2
 {
- background:url("../images/sol/Planejamento Financeiro.jpg");
+ background:url("../images/sol/Planejamento-Financeiro.jpg");
  background-position: center center;
  background-attachment: fixed;
  background-size:cover;
@@ -629,7 +629,7 @@ p.lead
 }
 .sol4
 {
- background:url("../images/sol/Pesquisa-de-Mercado.jpg");
+ background:url("../images/sol/Pesquisa-de-Mercado---Gestao-Empresarial.jpg");
  background-position: center center;
  background-attachment: fixed;
  background-size:cover;
@@ -638,7 +638,7 @@ p.lead
 }
 .sol5
 {
- background:url("../images/sol/Reestruturacao-Organizacional.jpg");
+ background:url("../images/sol/Reestruturação Organizaciona.jpg");
  background-position: center center;
  background-attachment: fixed;
  background-size:cover;
@@ -987,12 +987,17 @@ font-family: 'Zona Pro Thin';
   height: 45px;
   line-height: 45px;
   color: #fff;
-  border-radius: 50%;
   position: relative;
   transition: all .8s ease;
   font-size: 1.3em;
   background: #b2abab;
 }
+
+
+.fote i{
+  margin-top: 30px;
+}
+
 
 .social li a:hover {
 
@@ -1086,17 +1091,6 @@ font-family: 'Zona Pro Thin';
 }
 
 
-#servicos{
- 
-    float: center;
-    font-size: 1.6em;
-    width: 70px;
-     height: 70px;
-    text-align: center;
-    transition: all 200ms ease-in;
-    -webkit-transition: all 200ms ease-in;
-    display: inline-block;
-}
  .txt2 {
  
  text-align: center; 
@@ -1339,17 +1333,6 @@ p#serv{
 
 
 
-#containerr {
-position: relative;
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-
-
-
-background-image: -webkit-linear-gradient(50deg, #000  70%, #B21936 30%);
-
-}
 
 
 #mej{
@@ -1580,11 +1563,128 @@ display: flex;
 
 }
 
-
 .imgcliente:hover{
 
   opacity: 0.4;
-  transition: 1s;
+  transition: 0.4s;
   cursor: pointer;
+  margin-top: -10px;
 
+}
+
+.fote{
+
+  width: 100%;
+  background-color:#B21936;
+  position: relative;
+
+}
+
+.fote p{
+  text-align: center;
+}
+
+.social{
+  text-align: center;  
+
+}
+
+.fote >.container {
+    padding: 20px 30px;
+}
+
+
+
+.div1{
+
+  padding: 50px 50px;
+
+}
+
+
+#servicos{
+
+      font-size: 1.6em;
+      background-color: #B21936;
+
+
+}
+#servicos2{
+
+      font-size: 1.6em;
+      background-color: #000;
+
+
+}
+
+
+.solutions{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
+    margin: 30px -6px 30px -6px;
+  
+}
+.solutions>li {
+    flex-grow: 1;
+    flex-basis: 140px;
+    text-align: center;
+    position: relative;
+    margin: 50px 25px 30px 25px;
+    padding: 20px 20px;
+    
+    list-style: none;
+    overflow: hidden;
+
+}
+.solutions>li:hover {
+ 
+opacity: 0.8;
+color:red;
+
+}
+
+.solutions li h5{
+ 
+color: #fffff;
+
+
+}
+.solutions li h5:hover{
+ 
+color: #B21936 ;
+
+}
+
+.solut{
+
+  width: 70%;
+  background-color: #000;
+  box-shadow: 5px 5px #fff;
+
+
+}
+.solut2{
+
+  right: 0;
+  width: 70%;
+
+  background-color:#B21936;
+  box-shadow: 5px 5px #fff;
+  text-align: left;
+
+
+}
+.solut2 h3{
+      position: relative;
+      text-align: center;
+      padding: 10px 10px;
+
+
+}
+.solut h3{
+  position: relative;
+  text-align: center;
+  padding: 10px 10px;
 }
