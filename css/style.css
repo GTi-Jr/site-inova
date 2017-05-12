@@ -1527,8 +1527,8 @@ a:focus {
 }
 
 .aboutus{
-  background-image: -webkit-linear-gradient(59deg, #B21936  70%, #000 30%);
-  height: 370px;
+  background-image:  #B21936;
+
 
 }
 
@@ -1605,7 +1605,7 @@ display: flex;
 #servicos{
 
       font-size: 1.6em;
-      background-color: #B21936;
+      background-color: #C41933;
 
 
 }
@@ -1628,7 +1628,7 @@ display: flex;
 }
 .solutions>li {
     flex-grow: 1;
-    flex-basis: 140px;
+    flex-basis: 130px;
     text-align: center;
     position: relative;
     margin: 50px 25px 30px 25px;
@@ -1641,7 +1641,7 @@ display: flex;
 .solutions>li:hover {
  
 opacity: 0.8;
-color:red;
+
 
 }
 
@@ -1653,7 +1653,7 @@ color: #fffff;
 }
 .solutions li h5:hover{
  
-color: #B21936 ;
+opacity: 0.8;
 
 }
 
@@ -1670,7 +1670,7 @@ color: #B21936 ;
   right: 0;
   width: 70%;
 
-  background-color:#B21936;
+  background-color:#C41933;
   box-shadow: 5px 5px #fff;
   text-align: left;
 
